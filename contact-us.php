@@ -1,8 +1,9 @@
+<?php include('formprocess.php'); ?>
+
 <!doctype html>
 <html lang="en">
 
 <head>
-    <?php include('formprocess.php'); ?>
     <title>Contact Us</title>
     <link href="global.css" rel="stylesheet">
     <link rel="stylesheet" href="formstyle.css" type="text/css">
@@ -22,7 +23,7 @@
 
         <img id="logo" src="img/companylogo5.jpg" alt="company logo">
 
-        <nav class="navbar navbar-expand-lg navbar-dark" style="background: #3b5799">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background: #2a4671">
             <div class="container">
                 <a class="navbar-brand" href="index.html">QCE PTE. LTD.</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
@@ -173,9 +174,10 @@
             </div>
 
         </div>
-        <footer class="navbar text-white" style="background: #3b5799">
+
+        <footer class="navbar text-white p-0" style="background: #2a4671">
             <div class="container">
-                <p class="my-2">This website and its contents are copyright © 2010 - 2018 Quantum Circuit Engineering PTE. LTD. | <a class="text-white" href="contact-us.html">Contact Us</a></p>
+                <p style="margin: 5px 0">This website and its contents are copyright © 2010 - 2018 Quantum Circuit Engineering PTE. LTD. | <a class="text-light" href="contact-us.html">Contact Us</a></p>
             </div>
         </footer>
 

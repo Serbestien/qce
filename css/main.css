@@ -3,3 +3,12 @@
     border: 1px solid brown;
     padding: 10px;
 }
+
+.main {
+    background: url(../img/main.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+}
