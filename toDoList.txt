@@ -1,0 +1,31 @@
+----FUNCTIONAL
+instant email contact
+email validation
+remove consultant page(Change to services page)
+Function Search (Lowest piority)
+
+----Non-functional
+floating navibar always on top
+Sharpen company logo (Change everything to follow index)
+
+
+----aesthetic
+boarder pixel (give more space)
+redo color for navi bar 	xxxDONE
+redo color for header
+redo layover 			xxxDONE
+Change navi bar color (0000FF) 	xxxDONE
+
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pretium pellentesque ligula, vitae consequat elit imperdiet vitae. Pellentesque non odio a felis sagittis commodo ac in ex. Sed a euismod augue, sit amet vehicula elit. Praesent mattis magna semper, semper nibh in, semper diam. Ut efficitur ex nec dolor tempor placerat. Curabitur orci velit, sodales sit amet ligula et, laoreet sollicitudin risus. Etiam sit amet sollicitudin sapien, facilisis cursus magna. Donec sapien velit, maximus pellentesque libero scelerisque, suscipit vestibulum neque. Pellentesque convallis maximus pharetra. Cras efficitur euismod venenatis. Nunc iaculis fringilla luctus. Nulla sed lacinia eros. Etiam quis tellus viverra, venenatis sem id, aliquam leo.
+
+
+#navibar{ 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3b5799;
+    border-radius: 15px;
+}
