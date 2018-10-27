@@ -56,7 +56,7 @@
         <div>
             <div class="container">
                 <main>
-                    <h1>E-MAIL US</h1>
+
 
                     <form id="contact" action="<?= $_SERVER['PHP_SELF']; ?>" method="post">
 
@@ -72,7 +72,7 @@
 
                                     <div class="form-group">
                                         <p>Name <span>*</span></p>
-                                        <span class="icon-case"><i class="fa fa-user"></i></span>
+
                                         <input placeholder="Your name" type="text" tabindex="1" name="name" value="<?= $name ?>" autofocus>
                                         <span class="error">
                                             <?= $name_error ?></span>
@@ -81,7 +81,7 @@
 
                                     <div class="form-group">
                                         <p>E-mail <span>*</span></p>
-                                        <span class="icon-case"><i class="fa fa-envelope-o"></i></span>
+
                                         <input placeholder="Your Email Address" type="text" name="email" value="<?= $email ?>" tabindex="2">
                                         <span class="error">
                                             <?= $email_error ?></span>
@@ -90,7 +90,7 @@
 
                                     <div class="form-group">
                                         <p>Phone number <span>*</span></p>
-                                        <span class="icon-case"><i class="fa fa-phone"></i></span>
+
                                         <input placeholder="Your Phone Number" type="text" name="phone" value="<?= $phone ?>" tabindex="3">
                                         <span class="error">
                                             <?= $phone_error ?></span>
@@ -105,7 +105,7 @@
 
                                     <div class="form-group">
                                         <p>Message <span>*</span></p>
-                                        <span class="icon-case"><i class="fa fa-comments-o"></i></span>
+
                                         <textarea placeholder="Type your Message Here...." type="text" name="message" tabindex="5"></textarea>
                                         <div class="validation"></div>
                                     </div>
@@ -127,16 +127,19 @@
                     <h1>FIND US HERE</h1>
 
                     <iframe src="https://maps.google.com/?ll=1.405135%2C103.759128&amp;spn=0.003293%2C0.00751&amp;ie=UTF8&amp;z=17&amp;t=roadmap&amp;sll=1.405135%2C103.759128&amp;sspn=0.003293%2C0.00751&amp;q=Singapore%20729932%20(729932)&amp;output=embed" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <h1>
+                        PRESTIOGIO 1 TOWER 3,
+                        <br>29 MANDAI ESTATE #06-11,
+                        <br>Singapore 729932
+                        <br>Open ??? to ??? weekday?? weekend??? public holiday????
+                    </h1>
+
                 </form>
 
 
 
-                <address>
-                    PRESTIOGIO 1 TOWER 3,
-                    <br>29 MANDAI ESTATE #06-11,
-                    <br>Singapore 729932
-                    <br>Open ??? to ??? weekday?? weekend??? public holiday????
-                </address>
+
+
 
                 <br>
 
@@ -177,7 +180,7 @@
 
         <footer class="navbar text-white p-0" style="background: #2a4671">
             <div class="container">
-                <p style="margin: 5px 0">This website and its contents are copyright © 2010 - 2018 Quantum Circuit Engineering PTE. LTD. | <a class="text-light" href="contact-us.html">Contact Us</a></p>
+                <p style="margin: 5px 0">This website and its contents are copyright © 2010 - 2018 Quantum Circuit Engineering PTE. LTD. | <a class="text-light" href="contact-us.php">Contact Us</a></p>
             </div>
         </footer>
 

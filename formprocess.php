@@ -76,6 +76,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
             $success= "Message sent, thank you for contacting QCE!";
             $name = $email = $phone = $message ='';
         }
+        $to='sales@qce.come.sg';
+        if(mail($to,$subject,$message,$headers))//,$headers
+        {
+            $success= "Message sent, thank you for contacting QCE!";
+            $name = $email = $phone = $message ='';
+        }
     }
     
   
@@ -93,5 +99,3 @@ function test_input($data)
 }
 
 ?>
-
-
